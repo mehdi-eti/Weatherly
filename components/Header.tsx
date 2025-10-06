@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearchChange }) => {
 				justifyContent: "space-between",
 			}}>
 			<Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-				<LogoIcon className='h-8 w-8 text-accent-blue' />
+				<img src='./assets/logo.svg' alt='logo' />
 				<h2>{t("header_title")}</h2>
 			</Box>
 

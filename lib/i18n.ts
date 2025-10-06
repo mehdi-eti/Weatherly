@@ -74,7 +74,7 @@ export const translations: Record<string, Record<string, string>> = {
 		language_label: "زبان",
 
 		// Header
-		header_title: "داشبورد هواشناسی",
+		header_title: "داشبورد آب و هوا",
 		header_search_label: "مکان خود را جستجو کنید",
 		mode: "مود",
 		language: "زبان",
