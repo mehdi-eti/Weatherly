@@ -1,0 +1,5 @@
+
+{
+  "name": "React Weather Dashboard",
+  "description": "A modern, responsive weather dashboard application built with React, TypeScript, and Tailwind CSS. It features a light/dark mode, internationalization (English/Persian), and a clean, user-friendly interface based on the provided design."
+}
