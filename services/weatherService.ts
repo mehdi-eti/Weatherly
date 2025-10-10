@@ -45,6 +45,8 @@ export async function fetchCurrentWeather(location: string): Promise<CurrentWeat
 // --- Fetch forecast (grouped by day) ---
 export async function fetchForecast(location: string): Promise<ForecastItem[]> {
 	try {
+		// FIXME change url
+		// https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&past_days=14&daily=temperature_2m_min,temperature_2m_max
 		const { data } = await axios.get(
 			`https://api.openweathermap.org/data/2.5/forecast?q=${encodeURIComponent(location)}&appid=${API_KEY}&units=metric`
 		);
